@@ -94,10 +94,11 @@ nav li {
 }
 
 article,
-form {
+form,
+.form-intro {
     background-color: #FAFEFF;
-    padding: 60px 40px;
-    margin: 50px 60px;
+    padding: 40px 40px;
+    margin: 25px 60px;
     border: 1px solid #353B3C;
     border-radius: 5px;
     display: flex;
