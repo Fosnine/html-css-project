@@ -229,28 +229,19 @@ article figcaption {
         padding: 5px 0 0 15px;
     }
 
-    .form-row,
-    .legacy-form-row {
-        display: flex;
-        flex-direction: row;
-    }
-
     .form-row input[type='text'],
     .form-row input[type='email'],
     .form-row select,
     .form-row textarea {
-        width: 250px;
+        width: 400px;
         height: initial;
-    }
-    .speaker-form-header,
-    .speaker-form {
-        width: 600px;
     }
 
     .form-row {
         flex-direction: row;
         align-items: flex-start;
         margin-bottom: 20px;
+        flex-wrap: wrap;
     }
 
     .form-row input[type='text'],
@@ -268,6 +259,10 @@ article figcaption {
         padding-right: 20px;
     }
 
+    .form-row .instructions {
+        margin-left: 120px;
+    }
+    
     .legacy-form-row {
         margin-bottom: 10px;
     }
@@ -283,7 +278,7 @@ article figcaption {
     }
 
     .form-row .instructions {
-        margin-left: 120px;
+        margin-left: 145px;
     }
 
     .form-row .checkbox-label {
@@ -294,4 +289,5 @@ article figcaption {
     .form-row button {
         margin-left: 120px;
     }
+
 }
