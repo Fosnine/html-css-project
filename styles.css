@@ -248,7 +248,7 @@ article figcaption {
     .form-row input[type='email'],
     .form-row select,
     .form-row textarea {
-        width: 250px;
+        width: 500px;
         height: initial;
     }
 
